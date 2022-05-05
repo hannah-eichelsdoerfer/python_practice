@@ -14,8 +14,6 @@ _Open the **Exercises** Folder_
 
 3. Move on to the `dictionaries.py` file and try to solve the included challenges.
 
----
-
 ## Optional
 
 _Open the **Rock-Paper-Scissors** Folder_
