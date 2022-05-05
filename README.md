@@ -6,6 +6,7 @@
 2. Open the folder in `Visual Studio Code` (one click in GitHub Desktop)
 
 _Open the **Exercises** Folder_
+→ we will again practice working with strings, lists, dictionaries, conditions and loops
 
 1. Start with the `strings.py` file and try to solve the included challenges.
 
@@ -13,7 +14,14 @@ _Open the **Exercises** Folder_
 
 3. Move on to the `dictionaries.py` file and try to solve the included challenges.
 
+---
+
+## Optional
+
 _Open the **Rock-Paper-Scissors** Folder_
+→ Terminal Game
 
 1. Read the instructions on top of the `rock-paper-scissors.py` file.
 2. Implement your solution step by step.
+
+→ To start playing (or check in between if your code is doing what you want it to do) click on the file in the left panel and select `Run Python File in Terminal`
