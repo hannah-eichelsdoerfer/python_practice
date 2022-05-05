@@ -42,7 +42,7 @@ test = upper_case("Hello World")
 print(("Passed ✅" if test == "HELLO WORLD" else "Failed ❌") + " Test 1 (upper_case)")
 
 test = remove_whitespace(" Hello World   ")
-print(("Passed ✅" if test == "Hello World" else " ❌") + " Test 2 (remove_whitespace)")
+print(("Passed ✅" if test == "Hello World" else "Failed ❌") + " Test 2 (remove_whitespace)")
 
 test = remove_special_characters("@Hello- /Everyone!")
 print(("Passed ✅" if test == "HelloEveryone" else "Failed ❌") + " Test 3 (remove_special_characters)")
