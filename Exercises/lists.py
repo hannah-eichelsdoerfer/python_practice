@@ -37,16 +37,16 @@ def numbers_divisible_by_five(lsit_of_numbers):
 # Do not touch these Lines  
 # To run the tests, run this file either with the play button in the top right corner or by typing "python3 lists.py" in the terminal.
 test = sort_ascending([3, 1, 5, 4, 2])
-print(("Passed ✅" if test == [1, 2, 3, 4, 5] else " Failed ❌") + " Test 1 (sort_ascending)")
+print(("Passed ✅" if test == [1, 2, 3, 4, 5] else "Failed ❌") + " Test 1 (sort_ascending)")
 
 test = sort_by_length(["Hello", "Redi", "!"])
-print(("Passed ✅" if test == ["!", "Redi", "Hello"] else " Failed ❌") + " Test 2 (sort_by_length)")
+print(("Passed ✅" if test == ["!", "Redi", "Hello"] else "Failed ❌") + " Test 2 (sort_by_length)")
 
 test = square_numbers([1, 2, 3, 4, 5])
-print(("Passed ✅" if test == [1, 4, 9, 16, 25] else " Failed ❌") + " Test 3 (square_numbers)")
+print(("Passed ✅" if test == [1, 4, 9, 16, 25] else "Failed ❌") + " Test 3 (square_numbers)")
 
 test = remove_empty_strings(["", "Hello", "", "World", "!"])
-print(("Passed ✅" if test == ["Hello", "World", "!"] else " Failed ❌") + " Test 4 (remove_empty_strings)")
+print(("Passed ✅" if test == ["Hello", "World", "!"] else "Failed ❌") + " Test 4 (remove_empty_strings)")
 
 test = numbers_divisible_by_five([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-print(("Passed ✅" if test == [5, 10] else " Failed ❌") + " Test 5 (numbers_divisible_by_five)")
+print(("Passed ✅" if test == [5, 10] else "Failed ❌") + " Test 5 (numbers_divisible_by_five)")

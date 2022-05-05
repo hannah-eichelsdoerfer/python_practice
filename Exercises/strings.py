@@ -39,16 +39,16 @@ def count_character_occurrences(str):
 # --------------------------------------------------
 # Do not touch these Lines  
 test = upper_case("Hello World")
-print(("Passed ✅" if test == "HELLO WORLD" else " Failed ❌") + " Test 1 (upper_case)")
+print(("Passed ✅" if test == "HELLO WORLD" else "Failed ❌") + " Test 1 (upper_case)")
 
 test = remove_whitespace(" Hello World   ")
-print(("Passed ✅" if test == "Hello World" else " Failed ❌") + " Test 2 (remove_whitespace)")
+print(("Passed ✅" if test == "Hello World" else " ❌") + " Test 2 (remove_whitespace)")
 
 test = remove_special_characters("@Hello- /Everyone!")
-print(("Passed ✅" if test == "HelloEveryone" else " Failed ❌") + " Test 3 (remove_special_characters)")
+print(("Passed ✅" if test == "HelloEveryone" else "Failed ❌") + " Test 3 (remove_special_characters)")
 
 test =  belongs_to("Hello, World!", "World")
-print(("Passed ✅" if test == True else " Failed ❌") + " Test 4 (belongs_to)")
+print(("Passed ✅" if test == True else "Failed ❌") + " Test 4 (belongs_to)")
 
 test = count_character_occurrences("Banana")
-print(("Passed ✅" if test == {"B": 1, "a": 3, "n": 2} else " Failed ❌") + " Test 5 (count_character_occurrences)")
+print(("Passed ✅" if test == {"B": 1, "a": 3, "n": 2} else "Failed ❌") + " Test 5 (count_character_occurrences)")
